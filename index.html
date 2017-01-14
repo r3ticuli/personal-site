@@ -3,27 +3,41 @@
 <html>
 
 <head>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link href="index.css" type="text/css" rel="stylesheet" >
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="index.js"></script>
 </head>
 <body>
+  <h1> sebastian messier </h1>
   <div id="business-card">
-    <img src="assets/headshots/sm_hs.png" id="seb-headshot"/>
-    <ul id="content-list">
-      <li>
-        <button class="list-button" id="about-button">About</button>
-      </li>
-      <li>
-        <button class="list-button" id="resume-button">Resume</button>
-      </li>
-      <li>
-        <button class="list-button" id="photo-button">Photography</button>
-      </li>
-      <li>
-        <button class="list-button" id="github-button">GitHub</button>
-      </li>
-    </ul>
-  </div> <!-- business-card is closed -->
+    <div id="seb-headshot">
+      <img src="assets/headshots/sm_hs.png" style="width: 300px;"/>
+      <div id="hover-over-max">  <img id="max-indicator" src="/assets/headshots/that'sMax.png"/></div>
+    </div>
+
+    <div id="about-me">
+      UPenn CS’16 & Apple ‘15. Software Engineer with a growing penchant for UI
+      and Front End dev. Lover of art, environmental sustainability, adrenalin,
+      and things that <i>actually</i> work as intended.
+    </div> <!-- about me closing -->
+    <table id="icon-table">
+      <tr id="icon-row">
+        <td>
+          <a href="assets/resume.pdf">
+            <span class="glyphicon glyphicon-file" style="font-size: 64px"></span>
+          </a>
+        </td>
+        <td>
+          <a href="https://www.flickr.com/gp/136351299@N08/1o758y">
+            <span class="glyphicon glyphicon-camera"></span>
+          </a>
+        </td>
+        <td id="github-icon">
+          <a href="https://www.github.com/r3ticuli">
+            <img src="assets/png_icons/GitHub-Mark-64px.png"/>
+          </a>
+        </td>
+      </tr>
+    </table>
+  </div> <!-- business card closing -->
 </body>
 </html>
