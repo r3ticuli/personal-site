@@ -1,0 +1,77 @@
+$primary     : #002B36;
+$secondary   : #FDF6E3;
+$body-width  : 600px;
+$icon-square : 50px;
+
+html {
+  width            : 100%;
+  height           : 100%;
+  background-color : $primary;
+  font-size        : 30pt;
+}
+
+#body-container {
+  display     : block;
+  width       : 775px;
+  margin      : auto;
+  color       : $secondary;
+  font-family : 'Lato',
+                sans-serif;
+}
+
+h1 {
+  margin      : 7.5px 0px;
+  text-align  : left;
+  font-family : 'Lato',
+                sans-serif;
+  font-size   : 15pt;
+  font-weight : 300;
+}
+
+body {
+  display : inline;
+}
+
+span {
+  display : block;
+  margin  : 20px 0;
+}
+
+#big-image {
+  width : 100%;
+}
+
+#about-me {
+  display   : block;
+  width     : $body-width;
+  margin    : 10px auto;
+  font-size : 12pt;
+}
+
+.h-line {
+  width            : 100%;
+  height           : 1px;
+  background-color : $secondary;
+}
+
+#icon-table {
+  width  : $body-width;
+  margin : 0px auto;
+}
+
+td {
+  margin     : 0px 50px;
+  text-align : center;
+}
+
+.glyphicon {
+  color     : $secondary;
+  font-size : $icon-square;
+}
+
+img.icon {
+  width  : $icon-square;
+  height : $icon-square;
+}
+
+/* # sourceMappingURL=index.css.map */

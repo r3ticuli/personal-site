@@ -1,80 +1,60 @@
-
 html {
-  font-size: 30pt;
   width: 100%;
   height: 100%;
-  background-color: #F5E2C3;
-}
+  background-color: #002B36;
+  font-size: 30pt; }
 
-body {
-  font-family: 'Raleway', sans-serif;
-}
+#body-container {
+  display: block;
+  width: 775px;
+  margin: auto;
+  color: #FDF6E3;
+  font-family: 'Lato', sans-serif; }
 
 h1 {
-  font-family: 'Nunito Sans', sans-serif;
-  font-weight: bold;
-  text-align: center;
-  font-size: 30pt;
-  padding-top: 50px;
-  padding-bottom: 25px;
-}
+  margin: 7.5px 0px;
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  font-size: 15pt;
+  font-weight: 300; }
 
 body {
-  display: inline;
-}
+  display: inline; }
 
-#max-indicator {
-  position: absolute;
-  height: 200px;
-  left: -180px;
-  bottom: 10px;
-}
-
-#business-card {
-  margin: 0 auto;
-  width: 692px;
-  height: 300px;
-}
-
-#seb-headshot {
-  display: inline;
-  position: relative;
-  width: 300px;
-  height: 300px;
-}
-
-#hover-over-max {
-  position: absolute;
-  height: 120px;
-  width: 50px;
-  top: -50px;
-}
-
-#hover-over-max #max-indicator{
-  display: none;
-}
-
-#hover-over-max:hover #max-indicator{
+span {
   display: block;
-}
+  margin: 20px 0; }
+
+#big-image {
+  width: 100%; }
 
 #about-me {
-  float: right;
-  width: 348px;
-  height: 238px;
-  font-size: 18pt;
-  margin-top: 30px;
-}
+  display: block;
+  width: 600px;
+  margin: 10px auto;
+  font-size: 12pt; }
+
+.h-line {
+  width: 100%;
+  height: 1px;
+  background-color: #FDF6E3; }
 
 #icon-table {
-  margin: 50px auto;
-}
+  width: 600px;
+  margin: 0px auto; }
 
 td {
-  padding: 0px 50px;
-}
+  margin: 0px 50px;
+  text-align: center; }
 
 .glyphicon {
-font-size: 64px;
-color: black;
-}
+  color: #FDF6E3;
+  font-size: 50px; }
+
+img.icon {
+  width: 50px;
+  height: 50px; }
+
+/* # sourceMappingURL=index.css.map */
+
+/*# sourceMappingURL=index.css.map */
