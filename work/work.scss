@@ -21,7 +21,6 @@ html {
                 sans-serif;
 }
 
-
 #body-container {
   display     : block;
   width       : 775px;
@@ -121,27 +120,6 @@ table {
   display: inline-block;
 }
 
-table#work-menu {
-  width: 15%;
-  height: $carousel-height;
-}
-
-table#carousel{
-  width: 84%;
-  height: $carousel-height;
-}
-
-.td-button{
-  text-align: left;
-  width: 100%;
-  color       : $secondary;
-  font-weight : 400;
-}
-
-.td-button:hover {
-  color : $tertiary;
-}
-
 button {
   background-color: transparent;
   cursor: pointer;
@@ -169,6 +147,61 @@ td.carousel-button:hover {
 
 .visible-artwork {
   display: block;
+}
+
+table#work-menu {
+  width: 15%;
+  height: $carousel-height;
+}
+
+table#carousel{
+  width: 84%;
+  height: $carousel-height;
+}
+
+.category-button{
+  text-align: left;
+  width: 100%;
+  color       : $secondary;
+  font-weight : 400;
+}
+
+.category-button:hover {
+  color : $tertiary;
+}
+
+
+.selected-category-button {
+  color: $tertiary;
+}
+
+table {
+  width: 100%;
+}
+
+.project-button {
+  text-align: left;
+  width: 100%;
+  color       : $secondary;
+  font-weight : 400;
+}
+
+.project-button:hover {
+  color : $tertiary;
+}
+
+.selected-project-button {
+  color: $tertiary;
+}
+
+.projects {
+  padding-left: 20%;
+  display: none;
+}
+
+
+.projects-visible {
+  display:block;
 }
 
 /* # sourceMappingURL=index.css.map */

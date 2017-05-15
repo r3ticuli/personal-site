@@ -88,23 +88,6 @@ ul {
 table {
   display: inline-block; }
 
-table#work-menu {
-  width: 15%;
-  height: 300px; }
-
-table#carousel {
-  width: 84%;
-  height: 300px; }
-
-.td-button {
-  text-align: left;
-  width: 100%;
-  color: #FDF6E3;
-  font-weight: 400; }
-
-.td-button:hover {
-  color: #D33682; }
-
 button {
   background-color: transparent;
   cursor: pointer;
@@ -124,6 +107,48 @@ td.carousel-button:hover {
   display: none; }
 
 .visible-artwork {
+  display: block; }
+
+table#work-menu {
+  width: 15%;
+  height: 300px; }
+
+table#carousel {
+  width: 84%;
+  height: 300px; }
+
+.category-button {
+  text-align: left;
+  width: 100%;
+  color: #FDF6E3;
+  font-weight: 400; }
+
+.category-button:hover {
+  color: #D33682; }
+
+.selected-category-button {
+  color: #D33682; }
+
+table {
+  width: 100%; }
+
+.project-button {
+  text-align: left;
+  width: 100%;
+  color: #FDF6E3;
+  font-weight: 400; }
+
+.project-button:hover {
+  color: #D33682; }
+
+.selected-project-button {
+  color: #D33682; }
+
+.projects {
+  padding-left: 20%;
+  display: none; }
+
+.projects-visible {
   display: block; }
 
 /* # sourceMappingURL=index.css.map */

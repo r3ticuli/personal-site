@@ -5,6 +5,8 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet">
   <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
   <link href="work.css" type="text/css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="carousel.js"></script>
 </head>
 
 <body>
@@ -20,21 +22,66 @@
       <tbody>
         <tr>
           <td>
-            <button class="td-button">apps</button>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <button class="td-button">websites</button>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <button class="td-button">client work</button>
+            <table class="category-table">
+              <tr class="category">
+                <td>
+                  <button class="category-button selected-category-button">apps</button>
+                </td>
+              </tr>
+              <tr class="projects projects-visible">
+                <td>
+                  <table class="project-table">
+                    <tr>
+                      <td>
+                        <button class="project-button selected-project-button">req</button>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr class="category">
+                <td>
+                  <button class="category-button">websites</button>
+                </td>
+              </tr>
+              <tr class="projects">
+                <td>
+                  <table class="project-table">
+                    <tr>
+                      <td>
+                        <button class="project-button selected-project-button">jenn</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <button class="project-button">cami</button>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr class="category">
+                <td>
+                  <button class="category-button">clients</button>
+                </td>
+              </tr>
+              <tr class="projects">
+                <td>
+                  <table class="project-table">
+                    <tr>
+                      <td>
+                        <button class="project-button selected-project-button">flexReceipts</button>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
           </td>
         </tr>
       </tbody>
     </table>
+
     <table id="carousel">
       <tr>
         <td class="carousel-button">
@@ -45,20 +92,48 @@
           <div id="work-carousel-position">
             <div id="work-carousel-position-current" class="work-carousel-position">1</div>
             /
-            <div id="work-carousel-position-max" class="work-carousel-position">2</div>
+            <div id="work-carousel-position-max" class="work-carousel-position"></div>
           </div>
           <div id="artwork-2015-div" class="carousel-year-div visible-year">
-            <div id="artwork-2015-0" class="artwork-div visible-artwork"><img src="artwork/2015/mona.jpg" class="carousel-image">
-              <div class="carousel-description">mona
-                <br>A piece
-                <br> of art
-                <br> 1999</div>
+            <div id="artwork-2015-0" class="artwork-div visible-artwork"><img src="" class="carousel-image">
+              <div class="carousel-description">asd
+                <br>asd
+                <br>asd
+                <br>asd</div>
             </div>
-            <div id="artwork-2015-1" class="artwork-div "><img src="artwork/2015/mona2.jpg" class="carousel-image">
-              <div class="carousel-description">mona2
-                <br>A piece
-                <br> of art
-                <br> 1999</div>
+          </div>
+          <div id="artwork-2016-div" class="carousel-year-div">
+            <div id="artwork-2016-0" class="artwork-div"><img src="" class="carousel-image">
+              <div class="carousel-description">asd
+                <br>asd
+                <br>asd
+                <br>asd</div>
+            </div>
+            <div id="artwork-2016-1" class="artwork-div"><img src="" class="carousel-image">
+              <div class="carousel-description">asd
+                <br>asd
+                <br>asd
+                <br>asd</div>
+            </div>
+          </div>
+          <div id="artwork-2017-div" class="carousel-year-div">
+            <div id="artwork-2017-0" class="artwork-div"><img src="" class="carousel-image">
+              <div class="carousel-description">asd
+                <br>asd
+                <br>asd
+                <br>asd</div>
+            </div>
+            <div id="artwork-2017-1" class="artwork-div"><img src="" class="carousel-image">
+              <div class="carousel-description">asd
+                <br>asd
+                <br>asd
+                <br>asd</div>
+            </div>
+            <div id="artwork-2017-2" class="artwork-div"><img src="" class="carousel-image">
+              <div class="carousel-description">asd
+                <br>asd
+                <br>asd
+                <br>asd</div>
             </div>
           </div>
         </td>

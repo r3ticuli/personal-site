@@ -10,6 +10,7 @@ html {
   background-color : $primary;
   font-size        : 30pt;
 }
+
 #head-container {
   display     : block;
   width       : 775px;
@@ -29,20 +30,21 @@ html {
 }
 
 .nav {
-  display: inline-block;
-  width: 49%;
-  margin: 14px auto;
-  text-align: right;
+  display    : inline-block;
+  width      : 49%;
+  margin     : 14px auto;
+  text-align : right;
 }
 
 h1 {
-  display: inline-block;
-width: 50%;
-margin: 7.5px 0px;
-text-align: left;
-font-family: 'Lato', sans-serif;
-font-size: 15pt;
-font-weight: 300;
+  display     : inline-block;
+  width       : 50%;
+  margin      : 7.5px 0px;
+  text-align  : left;
+  font-family : 'Lato',
+                sans-serif;
+  font-size   : 15pt;
+  font-weight : 300;
 }
 
 .nav-button {
