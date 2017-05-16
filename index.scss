@@ -1,5 +1,6 @@
 $primary     : #002B36;
 $secondary   : #FDF6E3;
+$tertiary    : #D33682;
 $body-width  : 600px;
 $icon-square : 50px;
 
@@ -8,6 +9,15 @@ html {
   height           : 100%;
   background-color : $primary;
   font-size        : 30pt;
+}
+
+#head-container {
+  display     : block;
+  width       : 775px;
+  margin      : auto;
+  color       : $secondary;
+  font-family : 'Lato',
+                sans-serif;
 }
 
 #body-container {
@@ -19,13 +29,32 @@ html {
                 sans-serif;
 }
 
+.nav {
+  display    : inline-block;
+  width      : 49%;
+  margin     : 14px auto;
+  text-align : right;
+}
+
 h1 {
+  display     : inline-block;
+  width       : 50%;
   margin      : 7.5px 0px;
   text-align  : left;
   font-family : 'Lato',
                 sans-serif;
   font-size   : 15pt;
   font-weight : 300;
+}
+
+.nav-button {
+  display     : inline-block;
+  color       : $secondary;
+  font-weight : 400;
+}
+
+.nav-button:hover {
+  color : $tertiary;
 }
 
 body {
@@ -72,6 +101,14 @@ td {
 img.icon {
   width  : $icon-square;
   height : $icon-square;
+}
+
+a {
+  color : $secondary;
+}
+
+a:hover {
+  color : $tertiary;
 }
 
 /* # sourceMappingURL=index.css.map */

@@ -4,6 +4,13 @@ html {
   background-color: #002B36;
   font-size: 30pt; }
 
+#head-container {
+  display: block;
+  width: 775px;
+  margin: auto;
+  color: #FDF6E3;
+  font-family: 'Lato', sans-serif; }
+
 #body-container {
   display: block;
   width: 775px;
@@ -11,12 +18,28 @@ html {
   color: #FDF6E3;
   font-family: 'Lato', sans-serif; }
 
+.nav {
+  display: inline-block;
+  width: 49%;
+  margin: 14px auto;
+  text-align: right; }
+
 h1 {
+  display: inline-block;
+  width: 50%;
   margin: 7.5px 0px;
   text-align: left;
   font-family: 'Lato', sans-serif;
   font-size: 15pt;
   font-weight: 300; }
+
+.nav-button {
+  display: inline-block;
+  color: #FDF6E3;
+  font-weight: 400; }
+
+.nav-button:hover {
+  color: #D33682; }
 
 body {
   display: inline; }
@@ -54,6 +77,12 @@ td {
 img.icon {
   width: 50px;
   height: 50px; }
+
+a {
+  color: #FDF6E3; }
+
+a:hover {
+  color: #D33682; }
 
 /* # sourceMappingURL=index.css.map */
 

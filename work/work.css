@@ -1,0 +1,180 @@
+html {
+  width: 100%;
+  height: 100%;
+  background-color: #002B36;
+  font-size: 30pt; }
+
+#head-container {
+  display: block;
+  width: 775px;
+  margin: auto;
+  color: #FDF6E3;
+  font-family: 'Lato', sans-serif; }
+
+#body-container {
+  display: block;
+  width: 775px;
+  margin: auto;
+  color: #FDF6E3;
+  font-family: 'Lato', sans-serif; }
+
+h1 {
+  display: inline-block;
+  width: 50%;
+  margin: 7.5px 0px;
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  font-size: 15pt;
+  font-weight: 300; }
+
+.nav {
+  display: inline-block;
+  width: 49%;
+  margin: 14px auto;
+  text-align: right; }
+
+.nav-button {
+  color: #FDF6E3;
+  font-weight: 300; }
+
+.nav-button:hover {
+  color: #D33682; }
+
+body {
+  display: inline; }
+
+span {
+  margin: 20px 0; }
+
+#head-image {
+  width: 100%; }
+
+#about-me {
+  display: block;
+  width: 600px;
+  margin: 10px auto;
+  font-size: 12pt; }
+
+.h-line {
+  width: 100%;
+  height: 1px;
+  background-color: #FDF6E3; }
+
+#icon-table {
+  width: 600px;
+  margin: 0px auto; }
+
+td {
+  margin: 0px 50px;
+  text-align: center; }
+
+.glyphicon {
+  color: #FDF6E3;
+  font-size: 50px; }
+
+img.icon {
+  width: 50px;
+  height: 50px; }
+
+a {
+  color: #FDF6E3; }
+
+a:hover {
+  color: #D33682; }
+
+ul {
+  padding: 0; }
+
+table {
+  display: inline-block; }
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none; }
+
+td.carousel-button {
+  width: 1%; }
+
+td.carousel-button:hover {
+  color: #D33682; }
+
+div.carousel-position {
+  display: inline;
+  font-weight: 300; }
+
+div#work-menu {
+  font-size: 10pt;
+  display: inline-block;
+  width: 15%;
+  height: 300px; }
+
+table#carousel {
+  width: 70%;
+  height: 300px; }
+
+table {
+  width: 100%; }
+
+button.project {
+  text-align: left;
+  width: 100%;
+  color: #93A1A1;
+  font-weight: 300; }
+
+button.project:hover {
+  color: #D33682; }
+
+button.selected-project {
+  color: #D33682; }
+
+.projects-visible {
+  display: block; }
+
+ul {
+  display: table-row;
+  list-style: none; }
+
+div#visible-category {
+  display: block; }
+
+div.category {
+  display: none; }
+
+div#visible-category {
+  display: block; }
+
+div.project {
+  display: none; }
+
+div#visible-project {
+  display: block; }
+
+img.carousel-image {
+  display: none;
+  width: auto;
+  height: 500px;
+  margin: auto; }
+
+img#visible-image {
+  display: block; }
+
+span.carousel-description {
+  display: none;
+  font-weight: 300;
+  text-align: left;
+  width: 100%; }
+
+span#visible-description {
+  display: block; }
+
+span.description-body {
+  font-style: italic; }
+
+span.description-name {
+  font-weight: 500; }
+
+/* # sourceMappingURL=index.css.map */
+
+/*# sourceMappingURL=work.css.map */
