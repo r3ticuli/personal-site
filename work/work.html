@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400" rel="stylesheet">
   <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
   <link href="work.css" type="text/css" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
@@ -17,70 +17,32 @@
       <a href="work.html" class="nav-button">work</a>
     </div>
   </div>
+
   <div id="body-container">
-    <table id="work-menu">
-      <tbody>
-        <tr>
-          <td>
-            <table class="category-table">
-              <tr class="category">
-                <td>
-                  <button class="category-button selected-category-button">apps</button>
-                </td>
-              </tr>
-              <tr class="projects projects-visible">
-                <td>
-                  <table class="project-table">
-                    <tr>
-                      <td>
-                        <button class="project-button selected-project-button">req</button>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-              <tr class="category">
-                <td>
-                  <button class="category-button">websites</button>
-                </td>
-              </tr>
-              <tr class="projects">
-                <td>
-                  <table class="project-table">
-                    <tr>
-                      <td>
-                        <button class="project-button selected-project-button">jenn</button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <button class="project-button">cami</button>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-              <tr class="category">
-                <td>
-                  <button class="category-button">clients</button>
-                </td>
-              </tr>
-              <tr class="projects">
-                <td>
-                  <table class="project-table">
-                    <tr>
-                      <td>
-                        <button class="project-button selected-project-button">flexReceipts</button>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+    <div id="work-menu">
+      <ul>
+        <li class="category"> apps
+          <ul>
+            <li> <button class="project selected-project">req</button> </li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li class="category"> websites
+          <ul>
+            <li> <button class="project">jennifer hudock</button> </li>
+            <li> <button class="project">camila miorelli</button> </li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li class="category"> misc
+          <ul>
+            <li> <button class="project">flexReceipts</button> </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
 
     <table id="carousel">
       <tr>
@@ -89,51 +51,47 @@
             &lt; </button>
         </td>
         <td>
-          <div id="work-carousel-position">
-            <div id="work-carousel-position-current" class="work-carousel-position">1</div>
+          <div class="carousel-position">
+            <div id="current-position" class="carousel-position">1</div>
             /
-            <div id="work-carousel-position-max" class="work-carousel-position"></div>
+            <div id="max-position" class="carousel-position">6</div>
           </div>
-          <div id="artwork-2015-div" class="carousel-year-div visible-year">
-            <div id="artwork-2015-0" class="artwork-div visible-artwork"><img src="" class="carousel-image">
-              <div class="carousel-description">asd
-                <br>asd
-                <br>asd
-                <br>asd</div>
-            </div>
-          </div>
-          <div id="artwork-2016-div" class="carousel-year-div">
-            <div id="artwork-2016-0" class="artwork-div"><img src="" class="carousel-image">
-              <div class="carousel-description">asd
-                <br>asd
-                <br>asd
-                <br>asd</div>
-            </div>
-            <div id="artwork-2016-1" class="artwork-div"><img src="" class="carousel-image">
-              <div class="carousel-description">asd
-                <br>asd
-                <br>asd
-                <br>asd</div>
+          <!-- apps -->
+          <div id="visible-category" class="category">
+            <div id="visible-project" class="project">
+              <img src="portfolio/apps/1.png" id="visible-image" class="carousel-image">
+              <img src="portfolio/apps/2.png" class="carousel-image">
+              <img src="portfolio/apps/3.png" class="carousel-image">
+              <img src="portfolio/apps/4.png" class="carousel-image">
+              <img src="portfolio/apps/5.png" class="carousel-image">
+              <img src="portfolio/apps/6.png" class="carousel-image">
             </div>
           </div>
-          <div id="artwork-2017-div" class="carousel-year-div">
-            <div id="artwork-2017-0" class="artwork-div"><img src="" class="carousel-image">
-              <div class="carousel-description">asd
-                <br>asd
-                <br>asd
-                <br>asd</div>
+          <!-- websites -->
+          <div class="category">
+            <div class="project">
+              <img src="portfolio/websites/jenn/1.png" class="carousel-image">
+              <img src="portfolio/websites/jenn/2.png" class="carousel-image">
+              <img src="portfolio/websites/jenn/3.png" class="carousel-image">
+              <img src="portfolio/websites/jenn/4.png" class="carousel-image">
+              <img src="portfolio/websites/jenn/5.png" class="carousel-image">
+              <img src="portfolio/websites/jenn/6.png" class="carousel-image">
+              <img src="portfolio/websites/jenn/7.png" class="carousel-image">
+              <img src="portfolio/websites/jenn/8.png" class="carousel-image">
+              <img src="portfolio/websites/jenn/9.png" class="carousel-image">
             </div>
-            <div id="artwork-2017-1" class="artwork-div"><img src="" class="carousel-image">
-              <div class="carousel-description">asd
-                <br>asd
-                <br>asd
-                <br>asd</div>
+            <div class="project">
+              <img src="portfolio/websites/cami/1.png" class="carousel-image">
+              <img src="portfolio/websites/cami/2.png" class="carousel-image">
             </div>
-            <div id="artwork-2017-2" class="artwork-div"><img src="" class="carousel-image">
-              <div class="carousel-description">asd
-                <br>asd
-                <br>asd
-                <br>asd</div>
+          </div>
+          <!-- client work -->
+          <div class="category">
+            <div class="project">
+              <img src="portfolio/clients/1.png" class="carousel-image">
+              <img src="portfolio/clients/2.png" class="carousel-image">
+              <img src="portfolio/clients/3.png" class="carousel-image">
+              <img src="portfolio/clients/4.png" class="carousel-image">
             </div>
           </div>
         </td>
@@ -143,11 +101,35 @@
           </button>
         </td>
       </tr>
+      <tr>
+        <td colspan="3">
+          <span class="carousel-description" id="visible-description">
+            <span class="description-name">req</span> <br>
+            <span class="description-body">iOS http requests app for building/testing APIs. <br>
+            So far I've designed a logo and have begun menu prototyping.</span> <br>
+            <span class="description-completion">Currently in development</span>
+          </span>
+          <span class="carousel-description">
+            <span class="description-name">Jennifer Hudock</span> <br>
+            <span class="description-body">I designed &quot;hand-cut&quot; assets from scratch, giving the site <br>
+              a &quot;diy&quot; feel that matches the artist&#39;s personal work.</span> <br>
+            <span class="description-completion">Reachable <a href="../../../friends/jenn/idx.html" style="text-decoration:underline;">here</a>.</span>
+          </span>
+          <span class="carousel-description">
+            <span class="description-name">Camila Miorelli</span> <br>
+            <span class="description-body">Website with a rustic aesthetic to complement the artist&#39;s <br>
+             watercolor/parchment medium. </span> <br>
+            <span class="description-completion">Currently in development</span>
+          </span>
+          <span class="carousel-description">
+            <span class="description-name">flexReceipts e-Receipts</span> <br>
+            <span class="description-body">These are a selection of a few of the e-receipts I currently design for a startup. <br>
+              These were tested on litmus for cross client compatability.</span> <br>
+            <span class="description-completion"> Currently deployed and in the field. </span>
+          </span>
+        </td>
+      </tr>
     </table>
-  </div>
-  </td>
-  </tr>
-  </table>
   </div>
   <!-- body container div closed -->
 </body>

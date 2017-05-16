@@ -1,6 +1,7 @@
 $primary     : #002B36;
 $secondary   : #FDF6E3;
 $tertiary    : #D33682;
+$quaternary  : #93A1A1;
 $body-width  : 600px;
 $icon-square : 50px;
 $carousel-height : 300px;
@@ -51,7 +52,7 @@ h1 {
 
 .nav-button {
   color       : $secondary;
-  font-weight : 400;
+  font-weight : 300;
 }
 
 .nav-button:hover {
@@ -137,71 +138,100 @@ td.carousel-button:hover {
   color: $tertiary;
 }
 
-.work-carousel-position {
+div.carousel-position {
   display: inline;
+  font-weight: 300;
 }
 
-.artwork-div {
-  display: none;
-}
-
-.visible-artwork {
-  display: block;
-}
-
-table#work-menu {
+div#work-menu {
+  font-size: 10pt;
+  display: inline-block;
   width: 15%;
   height: $carousel-height;
 }
 
 table#carousel{
-  width: 84%;
+  width: 70%;
   height: $carousel-height;
-}
-
-.category-button{
-  text-align: left;
-  width: 100%;
-  color       : $secondary;
-  font-weight : 400;
-}
-
-.category-button:hover {
-  color : $tertiary;
-}
-
-
-.selected-category-button {
-  color: $tertiary;
 }
 
 table {
   width: 100%;
 }
 
-.project-button {
+button.project {
   text-align: left;
   width: 100%;
-  color       : $secondary;
-  font-weight : 400;
+  color       : $quaternary;
+  font-weight : 300;
 }
 
-.project-button:hover {
+button.project:hover {
   color : $tertiary;
 }
 
-.selected-project-button {
+button.selected-project {
   color: $tertiary;
-}
-
-.projects {
-  padding-left: 20%;
-  display: none;
 }
 
 
 .projects-visible {
   display:block;
+}
+
+ul {
+  display:table-row;
+  list-style: none;
+}
+div#visible-category {
+  display: block;
+}
+
+
+div.category {
+  display: none;
+}
+
+div#visible-category {
+  display: block;
+}
+
+div.project {
+  display: none;
+}
+
+div#visible-project {
+  display: block;
+}
+
+img.carousel-image {
+  display: none;
+  width: auto;
+  height:500px;
+  margin: auto;
+}
+
+img#visible-image {
+  display: block;
+}
+
+span.carousel-description {
+  display: none;
+  font-weight: 300;
+  text-align: left;
+  width: 100%
+}
+
+span#visible-description {
+  display: block;
+}
+
+span.description-body {
+  font-style: italic;
+}
+
+span.description-name {
+  font-weight:500;
 }
 
 /* # sourceMappingURL=index.css.map */
