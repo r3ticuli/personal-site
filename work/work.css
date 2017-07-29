@@ -35,7 +35,7 @@ h1 {
 
 .nav-button {
   color: #FDF6E3;
-  font-weight: 400; }
+  font-weight: 300; }
 
 .nav-button:hover {
   color: #D33682; }
@@ -100,56 +100,80 @@ td.carousel-button {
 td.carousel-button:hover {
   color: #D33682; }
 
-.work-carousel-position {
-  display: inline; }
+div.carousel-position {
+  display: inline;
+  font-weight: 300; }
 
-.artwork-div {
-  display: none; }
-
-.visible-artwork {
-  display: block; }
-
-table#work-menu {
+div#work-menu {
+  font-size: 10pt;
+  display: inline-block;
   width: 15%;
   height: 300px; }
 
 table#carousel {
-  width: 84%;
+  width: 70%;
   height: 300px; }
-
-.category-button {
-  text-align: left;
-  width: 100%;
-  color: #FDF6E3;
-  font-weight: 400; }
-
-.category-button:hover {
-  color: #D33682; }
-
-.selected-category-button {
-  color: #D33682; }
 
 table {
   width: 100%; }
 
-.project-button {
+button.project {
   text-align: left;
   width: 100%;
-  color: #FDF6E3;
-  font-weight: 400; }
+  color: #93A1A1;
+  font-weight: 300; }
 
-.project-button:hover {
+button.project:hover {
   color: #D33682; }
 
-.selected-project-button {
+button.selected-project {
   color: #D33682; }
-
-.projects {
-  padding-left: 20%;
-  display: none; }
 
 .projects-visible {
   display: block; }
+
+ul {
+  display: table-row;
+  list-style: none; }
+
+div#visible-category {
+  display: block; }
+
+div.category {
+  display: none; }
+
+div#visible-category {
+  display: block; }
+
+div.project {
+  display: none; }
+
+div#visible-project {
+  display: block; }
+
+img.carousel-image {
+  display: none;
+  width: auto;
+  height: 500px;
+  margin: auto; }
+
+img#visible-image {
+  display: block; }
+
+span.carousel-description {
+  display: none;
+  font-weight: 300;
+  text-align: left;
+  width: 100%; }
+
+span#visible-description {
+  display: block; }
+
+span.description-body {
+  font-style: italic; }
+
+span.description-name {
+  font-weight: 500; }
 
 /* # sourceMappingURL=index.css.map */
 
