@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/esem
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://r3ticuli.github.io
+  * I am esem (https://keybase.io/esem) on keybase.
+  * I have a public key ASBGkqHtZcGGlW1t_AmBGT-fzAeuVYAakJhERpuotPpKlwo
+
+To do so, I am signing this object:
+
+{
+  body: {
+    key: {
+      eldest_kid: 01019a0fc28c3125bf2e9ecce17aed218d2808c68dc0b5428ef64e0cc63ed704e1180a,
+      host: keybase.io,
+      kid: 01204692a1ed65c186956d6dfc0981193f9fcc07ae55801a909844469ba8b4fa4a970a,
+      uid: cfeb3318ec519add44173c6206a90419,
+      username: esem
+    },
+    merkle_root: {
+      ctime: 1501355564,
+      hash: a57d96b907a09fda0122a1240fc40003ed3e5f7b9a5a769585f4d071cdf0bf8782b3a0185d32a9a8adfc67dc51406000089a1f1aa41689843f71d89ba7eefd95,
+      hash_meta: 722f10b0c8af45708b58e216ee9b5db0407ec180192cda79cf0bc36299ef876b,
+      seqno: 1290004
+    },
+    service: {
+      hostname: r3ticuli.github.io,
+      protocol: https:
+    },
+    type: web_service_binding,
+    version: 1
+  },
+  client: {
+    name: keybase.io go client,
+    version: 1.0.26
+  },
+  ctime: 1501355617,
+  expire_in: 504576000,
+  prev: ebc4d9a6bf9e688390bb07f6437099cbdbfd1934985751ee757ce871f2e82a2b,
+  seqno: 5,
+  tag: signature
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgRpKh7WXBhpVtbfwJgRk/n8wHrlWAGpCYREabqLT6SpcKp3BheWxvYWTFA0Z7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxOWEwZmMyOGMzMTI1YmYyZTllY2NlMTdhZWQyMThkMjgwOGM2OGRjMGI1NDI4ZWY2NGUwY2M2M2VkNzA0ZTExODBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNDY5MmExZWQ2NWMxODY5NTZkNmRmYzA5ODExOTNmOWZjYzA3YWU1NTgwMWE5MDk4NDQ0NjliYThiNGZhNGE5NzBhIiwidWlkIjoiY2ZlYjMzMThlYzUxOWFkZDQ0MTczYzYyMDZhOTA0MTkiLCJ1c2VybmFtZSI6ImVzZW0ifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MDEzNTU1NjQsImhhc2giOiJhNTdkOTZiOTA3YTA5ZmRhMDEyMmExMjQwZmM0MDAwM2VkM2U1ZjdiOWE1YTc2OTU4NWY0ZDA3MWNkZjBiZjg3ODJiM2EwMTg1ZDMyYTlhOGFkZmM2N2RjNTE0MDYwMDAwODlhMWYxYWE0MTY4OTg0M2Y3MWQ4OWJhN2VlZmQ5NSIsImhhc2hfbWV0YSI6IjcyMmYxMGIwYzhhZjQ1NzA4YjU4ZTIxNmVlOWI1ZGIwNDA3ZWMxODAxOTJjZGE3OWNmMGJjMzYyOTllZjg3NmIiLCJzZXFubyI6MTI5MDAwNH0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJyM3RpY3VsaS5naXRodWIuaW8iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4yNiJ9LCJjdGltZSI6MTUwMTM1NTYxNywiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiJlYmM0ZDlhNmJmOWU2ODgzOTBiYjA3ZjY0MzcwOTljYmRiZmQxOTM0OTg1NzUxZWU3NTdjZTg3MWYyZTgyYTJiIiwic2Vxbm8iOjUsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RALUeoi1yFkN03tv0RzGMQs3/qWG+ebJnG/+9IKoqSWz/GWSkth892ovLCKsROscNJ/oNh07iOMMpCPpuJUEugAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFPnHWiKhhluP7c11x/zQi1YnL7V83GdLhcoUENHWFBGo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/esem
+
+==================================================================
