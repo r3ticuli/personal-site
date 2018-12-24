@@ -1,8 +1,9 @@
 $primary     : #002B36;
 $secondary   : #FDF6E3;
 $tertiary    : #D33682;
-$body-width  : 600px;
-$icon-square : 50px;
+$max-body-width  : 700px;
+$icon-size : 30px;
+$margin : 20px;
 
 html {
   width            : 100%;
@@ -11,96 +12,64 @@ html {
   font-size        : 30pt;
 }
 
-#head-container {
-  display     : block;
-  width       : 775px;
-  margin      : auto;
-  color       : $secondary;
-  font-family : 'Lato',
-                sans-serif;
+body {
+  font-family: 'Ubuntu Mono', monospace;
+  display : inline;
 }
 
 #body-container {
   display     : block;
-  width       : 775px;
-  margin      : auto;
+  margin      : 0px 40px;
   color       : $secondary;
-  font-family : 'Lato',
-                sans-serif;
-}
-
-.nav {
-  display    : inline-block;
-  width      : 49%;
-  margin     : 14px auto;
-  text-align : right;
+  margin-top : 200px;
 }
 
 h1 {
   display     : inline-block;
-  width       : 50%;
-  margin      : 7.5px 0px;
+  margin      : 0;
   text-align  : left;
-  font-family : 'Lato',
-                sans-serif;
   font-size   : 15pt;
-  font-weight : 300;
-}
-
-.nav-button {
-  display     : inline-block;
-  color       : $secondary;
-  font-weight : 400;
-}
-
-.nav-button:hover {
-  color : $tertiary;
-}
-
-body {
-  display : inline;
+  font-weight : bolder;
 }
 
 span {
   display : block;
-  margin  : 20px 0;
-}
-
-#head-image {
-  width : 100%;
+  margin  : $margin 0;
+  font-weight: lighter;
 }
 
 #about-me {
   display   : block;
-  width     : $body-width;
-  margin    : 10px auto;
+  max-width : $max-body-width;
+  margin    : $margin auto;
   font-size : 12pt;
 }
 
+img {
+  float: right;
+  max-width  : $max-body-width/4;
+}
+
 .h-line {
-  width            : 100%;
+  width            : 70%;
   height           : 1px;
   background-color : $secondary;
 }
 
 #icon-table {
-  width  : $body-width;
-  margin : 0px auto;
+  max-width  : $max-body-width;
+  width: 70%;
+  margin : $margin 0;
 }
 
 td {
-  margin     : 0px 50px;
   text-align : center;
+  width: 33%;
 }
 
-.glyphicon {
+svg {
   color     : $secondary;
-  font-size : $icon-square;
-}
-
-img.icon {
-  width  : $icon-square;
-  height : $icon-square;
+  font-size : $icon-size !important ;
 }
 
 a {
@@ -109,6 +78,46 @@ a {
 
 a:hover {
   color : $tertiary;
+}
+
+#head-shot {
+  border-radius: 50%;
+  margin: $margin auto;
+  padding: 0px;
+}
+
+@media (max-width: 500px) {
+
+  #body-container {
+    display     : block;
+    margin      : $margin 40px;
+  }
+
+  img {
+    max-width  : 100%;
+    float: none;
+    display: block;
+  }
+
+  div #about-me {
+    margin: auto;
+  }
+
+  .h-line {
+    width            : 100%;
+    height           : 1px;
+    background-color : $secondary;
+  }
+
+  #icon-table {
+    width            : 100%;
+  }
+
+  h1 {
+    width       : 100%;
+    text-align  : center;
+    margin      : auto;
+  }
 }
 
 /* # sourceMappingURL=index.css.map */
