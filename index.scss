@@ -1,10 +1,13 @@
 $primary          : #002B36;
 $secondary        : #FDF6E3;
 $tertiary         : #D33682;
-$max-body-width   : 700px;
 
+$max-body-width   : 700px;
+$margin           : 20px;
+
+$font : 'Ubuntu Mono', monospace;
 $font-size-heading : 20pt;
-$font-size-heading-mobile : 40pt;
+$font-size-heading-mobile : 50pt;
 $font-size        : 13pt;
 $line-height      : 21pt;
 $font-size-mobile : 22pt;
@@ -12,7 +15,7 @@ $line-height-mobile : 35pt;
 
 $icon-size        : 30px;
 $icon-size-mobile : 60px;
-$margin           : 20px;
+
 
 html {
   width            : 100%;
@@ -23,13 +26,13 @@ html {
 }
 
 body {
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: $font;
   display : inline;
 }
 
 #body-container {
   display     : block;
-  margin      : 200px 40px 0px 40px;
+  margin      : 150px 40px 0px 40px;
   color       : $secondary;
 }
 
