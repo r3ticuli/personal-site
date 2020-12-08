@@ -28,6 +28,7 @@
   "work": [
     {
       "name": "AirMed",
+      "company": "AirMed",
       "location": "Los Angeles, CA",
       "description": "Health Care SaaS Startup",
       "position": "Co-Founder, CTO",
@@ -44,6 +45,7 @@
     },
     {
       "name": "AirMed",
+      "company": "AirMed",
       "location": "Los Angeles, CA",
       "description": "Health Care SaaS Startup",
       "position": "Advisor, Board Member",
@@ -53,6 +55,7 @@
     },
     {
       "name": "Capital One",
+      "company": "Capital One",
       "location": "McLean, Virginia",
       "description": "Retail Banking",
       "position": "Software Engineer",
@@ -68,6 +71,7 @@
     },
     {
       "name": "flexEngage",
+      "company": "flexEngage",
       "location": "Orlando, Florida",
       "description": "SaaS Retail Startup",
       "position": "Software Engineer",
@@ -84,6 +88,7 @@
     },
     {
       "name": "Apple",
+      "company": "Apple",
       "position": "Diagnostics Engineer",
       "description": "AppleCare Department",
       "startDate": "2015-01-31",
@@ -122,104 +127,24 @@
   "publications": [],
   "skills": [
     {
-      "name": "Java",
+      "name": "Software Architecture",
       "level": "",
-      "keywords": []
+      "keywords": ["AWS", "Micro-services", "Serverless", "Monoliths", "Data Architecture", "CMS"]
     },
     {
-      "name": "Python",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Swift",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Git",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "PHP",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Node.js",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Typescript",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Electron",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Postgres",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "MySQL",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "DynamoDB",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Sketch",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Docker",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Web Design",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "React.js",
-      "level": "",
-      "keywords": []
+      "name": "Backend Developer",
+      "level": "Master",
+      "keywords": ["Docker", "AWS", "DynamoDB", "Postgres", "MySQL", "Node", "OAuth", "Typescript", "Python", "Java"]
     },
     {
       "name": "Web Development",
-      "level": "",
-      "keywords": []
+      "level": "Master",
+      "keywords": ["React", "Sketch", "Illustrator", "Vercel", "Typescript", "WebAssembly", "NextJS", "Vue"]
     },
     {
-      "name": "AWS",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Serverless",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Javascript",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Adobe Illustrator",
-      "level": "",
-      "keywords": []
+      "name": "Mobile Development",
+      "level": "Medium",
+      "keywords": ["Swift", "React Native", "iOS", "SwiftUI"]
     }
   ],
   "languages": [
