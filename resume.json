@@ -6,7 +6,7 @@
     "picture": "https://r3ticuli.github.io/assets/png/seb.png",
     "email": "sebastian.messier@gmail.com",
     "url": "https://r3ticuli.github.io/",
-    "summary": "Engineer with broad practical knowledge of software, testing, analytics, performance, and agile development. I care deeply about the end user, collaborating effectively with others, and most importantly, building things people need.",
+    "summary": "Technical founder with broad practical knowledge of software, testing, analytics, performance, and agile development. I care deeply about the end user, collaborating effectively with others, and most importantly, building things people need.",
     "profiles": [
       {
         "network": "LinkedIn",
@@ -28,7 +28,6 @@
   "work": [
     {
       "name": "AirMed",
-      "company": "AirMed",
       "location": "Los Angeles, CA",
       "description": "Health Care SaaS Startup",
       "position": "Co-Founder, CTO",
@@ -45,7 +44,6 @@
     },
     {
       "name": "AirMed",
-      "company": "AirMed",
       "location": "Los Angeles, CA",
       "description": "Health Care SaaS Startup",
       "position": "Advisor, Board Member",
@@ -55,7 +53,6 @@
     },
     {
       "name": "Capital One",
-      "company": "Capital One",
       "location": "McLean, Virginia",
       "description": "Retail Banking",
       "position": "Software Engineer",
@@ -71,7 +68,6 @@
     },
     {
       "name": "flexEngage",
-      "company": "flexEngage",
       "location": "Orlando, Florida",
       "description": "SaaS Retail Startup",
       "position": "Software Engineer",
@@ -88,7 +84,6 @@
     },
     {
       "name": "Apple",
-      "company": "Apple",
       "position": "Diagnostics Engineer",
       "description": "AppleCare Department",
       "startDate": "2015-01-31",
@@ -127,24 +122,48 @@
   "publications": [],
   "skills": [
     {
-      "name": "Software Architecture",
+      "name": "Backend Development",
       "level": "",
-      "keywords": ["AWS", "Micro-services", "Serverless", "Monoliths", "Data Architecture", "CMS"]
+      "keywords": [
+        "Java",
+        "Python",
+        "Node",
+        "Typescript",
+        "Docker",
+        "AWS",
+        "Serverless",
+        "Kinesis",
+        "Kafka",
+        "OAuth",
+        "Postgres",
+        "MySQL",
+        "DynamoDB"
+      ]
     },
     {
-      "name": "Backend Developer",
-      "level": "Master",
-      "keywords": ["Docker", "AWS", "DynamoDB", "Postgres", "MySQL", "Node", "OAuth", "Typescript", "Python", "Java"]
+      "name": "Design",
+      "level": "",
+      "keywords": ["Sketch", "Adobe Illustrator", "Figma", "Adobe XD", "Prototyping", "Customer Interviews"]
     },
     {
       "name": "Web Development",
-      "level": "Master",
-      "keywords": ["React", "Sketch", "Illustrator", "Vercel", "Typescript", "WebAssembly", "NextJS", "Vue"]
+      "level": "",
+      "keywords": [
+        "Single Page Apps",
+        "React",
+        "Next.JS",
+        "ES2020",
+        "Typescript",
+        "Redux",
+        "Tailwind CSS",
+        "A/B Testing",
+        "Jest"
+      ]
     },
     {
-      "name": "Mobile Development",
-      "level": "Medium",
-      "keywords": ["Swift", "React Native", "iOS", "SwiftUI"]
+      "name": "iOS Development",
+      "level": "",
+      "keywords": ["Swift", "Objective-C", "Swift UI", "React Native", "Combine"]
     }
   ],
   "languages": [
@@ -157,6 +176,54 @@
       "fluency": "Native Speaker"
     }
   ],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Music",
+      "keywords": [
+        "Analog Recording Techniques",
+        "Microphones",
+        "Effects Pedals",
+        "Drum Machines",
+        "Analog Synthesizers",
+        "Aluminum Guitars"
+      ]
+    },
+    {
+      "name": "Photography",
+      "keywords": ["DIY Film Processing", "Black and White", "Portraits", "Landscapes", "Nature", "Urban Exploration"]
+    },
+    {
+      "name": "Startups",
+      "keywords": [
+        "Paul Graham",
+        "Y-Combinator",
+        "Ramen Profitability",
+        "SaaS",
+        "Product Market Fit",
+        "Blitzscaling",
+        "E-commerce"
+      ]
+    },
+    {
+      "name": "3D Printing",
+      "keywords": ["AutoDesk", "3D Printers", "PLA Filament"]
+    },
+    {
+      "name": "Hardware",
+      "keywords": [
+        "Raspberry Pi",
+        "Home Automation",
+        "Digital Circuits",
+        "DIY Keyboards",
+        "Quantified Self",
+        "Health Trackers",
+        "ARM Architecture"
+      ]
+    },
+    {
+      "name": "Software",
+      "keywords": ["Compilers", "Functional Programming", "Generative Art", "Kernels", "Security", "No-Code"]
+    }
+  ],
   "references": []
 }
