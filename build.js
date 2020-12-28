@@ -3,11 +3,16 @@ const fs = require("fs");
 
 // compile templates
 
-const homeTemplateFile = fs.readFileSync("./templates/index.hbs").toString();
+const homeTemplateFile = fs.readFileSync("./src/templates/index.hbs").toString();
 const homeTemplate = Handlebars.compile(homeTemplateFile);
 
-const resumeTemplateFile = fs.readFileSync("./templates/resume.hbs").toString();
+const resumeTemplateFile = fs.readFileSync("./src/templates/resume.hbs").toString();
 const resumeTemplate = Handlebars.compile(resumeTemplateFile);
+
+// Register Partials
+
+const headerTemplate = fs.readFileSync("./src/templates/header.hbs").toString();
+Handlebars.registerPartial("header", headerTemplate);
 
 // load json-resume
 

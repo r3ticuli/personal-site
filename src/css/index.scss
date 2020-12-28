@@ -1,0 +1,170 @@
+$max-body-width: 700px;
+$margin: 20px;
+
+$font: "Fira Code", monospace;
+$font-size-heading: 20pt;
+$font-size-heading-mobile: 50pt;
+$font-size: 13pt;
+$line-height: 21pt;
+$font-size-mobile: 30pt;
+$line-height-mobile: 60pt;
+
+html {
+  width: 100%;
+  height: 100%;
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+body {
+  font-family: $font;
+  display: inline;
+}
+
+#body-container {
+  display: block;
+  margin: 150px 40px 0px 40px;
+}
+
+select {
+  background: transparent;
+}
+
+h1 {
+  display: inline-block;
+  margin: 0px;
+  text-align: left;
+  font-weight: bolder;
+  font-size: $font-size-heading;
+  letter-spacing: 2px;
+}
+
+span {
+  display: block;
+  margin: $margin 0;
+  font-weight: lighter;
+}
+
+#about-me {
+  display: block;
+  max-width: $max-body-width;
+  margin: $margin auto;
+}
+
+img {
+  float: right;
+  max-width: $max-body-width/4;
+}
+
+.h-line {
+  width: 70%;
+  height: 1px;
+}
+
+#link-table {
+  max-width: $max-body-width;
+  width: 70%;
+  margin: $margin 0;
+}
+
+td {
+  text-align: center;
+  width: 25%;
+}
+
+#head-shot {
+  border-radius: 50%;
+  margin: $margin auto;
+  padding: 0px 5px 0px 0px;
+}
+
+#themer-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  html {
+    font-size: $font-size-mobile;
+    line-height: $line-height-mobile;
+  }
+
+  #body-container {
+    display: block;
+    margin: $margin 40px;
+  }
+
+  #themer-container {
+    display: none;
+  }
+
+  img {
+    max-width: 80%;
+    float: none;
+    display: block;
+  }
+
+  div #about-me {
+    margin: auto;
+  }
+
+  .h-line {
+    width: 100%;
+    height: 1px;
+    margin: 50px 0px;
+  }
+
+  #link-table {
+    width: 100%;
+  }
+
+  h1 {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: $font-size-heading-mobile;
+  }
+
+  td {
+    margin: 0 auto;
+    display: block;
+    width: 25%;
+  }
+}
+
+@mixin themable($theme-name, $primary, $secondary, $tertiary, $quaternary, $quinary, $senary, $octonary, $nonary) {
+  html .#{$theme-name} {
+    background-color: $primary;
+    color: $secondary;
+
+    .h-line {
+      background-color: $secondary;
+    }
+
+    svg {
+      color: $secondary;
+    }
+
+    a {
+      color: $secondary;
+    }
+
+    select {
+      color: $secondary;
+    }
+
+    a:hover {
+      color: $tertiary;
+    }
+  }
+}
+
+@include themable(night-sky-dark, #13222e, #acbecc, #ca3e5a, #d8843e, #ebb062, #81a559, #42abab, #4496cd);
+@include themable(rivet-dark, #0a0216, #faf9fc, #f54456, #fc7022, #d6cd00, #91e827, #00c580, #305dfb);
+@include themable(solarized-light, #fdf6e3, #002b36, #dc322f, #cb4b16, #b58900, #859900, #2aa198, #268bd2);
+@include themable(mojave-dark, #222323, #dddddd, #ff5257, #f7821c, #fbb927, #62ba46, #00c7a3, #007aff);
+@include themable(green-as-a-whistle-dark, #1f1913, #fefedd, #994643, #f2ab71, #ffcf86, #4b8075, #639587, #517665);
+
+/* # sourceMappingURL=index.css.map */

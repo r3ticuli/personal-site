@@ -6,8 +6,13 @@
     "picture": "https://r3ticuli.github.io/assets/png/seb.png",
     "email": "sebastian.messier@gmail.com",
     "url": "https://r3ticuli.github.io/",
-    "summary": "Technical founder with broad practical knowledge of software, testing, analytics, performance, and agile development. I care deeply about the end user, collaborating effectively with others, and most importantly, building things people need.",
+    "summary": "Technical founder who cares deeply about the end user, working effectively with others, and building things people need.",
     "profiles": [
+      {
+        "network": "Blog",
+        "username": "Sebastian Messier",
+        "url": "https://sebastian-messier.medium.com/"
+      },
       {
         "network": "LinkedIn",
         "username": "Sebastian Messier",
@@ -36,10 +41,9 @@
       "endDate": "2020-12-07",
       "summary": "I realized the CPAP purchasing experience was a nightmare. I performed customer interviews to verify the problem was real and built the technology to streamline the CPAP purchase experience. Brought on an amazing CEO and raised 1M in seed funding.",
       "highlights": [
-        "Maintained relationships with physicians, vendors, and customers.",
         "Mocked up, scoped, architected, and shipped our products from scratch.",
         "Brought company from 0 to 18k MRR over the course of a year.",
-        "Raised +1m in seed funding."
+        "Raised 3m in seed funding."
       ]
     },
     {
@@ -49,7 +53,7 @@
       "position": "Advisor, Board Member",
       "url": "https://www.getairmed.com",
       "startDate": "2020-12-07",
-      "summary": "Transitioned from CTO to advisor role. As a board member I assist the company on technical hiring, and R&D. "
+      "summary": "Transitioned from CTO to advisor role. As a board member I assist the company on technical hiring and R&D. "
     },
     {
       "name": "Capital One",
@@ -58,12 +62,12 @@
       "position": "Software Engineer",
       "url": "https://www.capitalone.com",
       "startDate": "2019-04-30",
-      "summary": "Delivered features and enhancements on customer facing iPad app used in branches. Grew our knowledge of best practices, and established quality standards through out our code base.",
+      "summary": "Delivered enhancements and features for in-branch iPad app in Swift.",
       "highlights": [
-        "Worked on enhancements and features for in-branch iPad app in Swift.",
-        "Brought customer-centric startup mentality and established high software standards within team.",
-        "Built customer queue API with Typescript, AWS Lambdas, and AWS DynamoDB.",
-        "Lead regular meetings to address and triage issues related to tech debt."
+        "Established standards & best practices within the organization.",
+        "Brought customer-centric startup mentality within team.",
+        "Built customer queueing API in Typescript, Lambdas, and DynamoDB.",
+        "Lead regular meetings to address and triage tech debt within our org."
       ]
     },
     {
@@ -74,11 +78,10 @@
       "url": "https://www.flexEngage.com",
       "startDate": "2019-04-30",
       "endDate": "2019-03-31",
-      "summary": "A YC backed digital receipts startup. JMy first taste of the startup experience.",
+      "summary": "A YC backed digital receipts startup. My first taste of the startup experience.",
       "highlights": [
-        "Joined during period of hyper-growth. On boarded Under Armour, Michael Kors, and Grupo Exito (Amazon of South America)",
+        "Joined during period of hyper-growth. On boarded Under Armor, Michael Kors, and Grupo Exito (Amazon of South America)",
         "Design, implement, test, and shipped micro-services written in Java/Spring, Docker, and deployed on AWS.",
-        "QA duties included running tests and establishing ownership of test suites.",
         "Lead regular meetings to address and triage issues faced by other teams."
       ]
     },
@@ -92,8 +95,8 @@
       "url": "https://www.apple.com/",
       "highlights": [
         "Wrote diagnostics suites for iPhone hardware in Matlab, Lua, and Objective-C.",
-        "Built diagnostics data collection tool to gather and organize test results at scale.",
-        "Presented optical image stabilization diagnostic proof of concept to executives."
+        "Built data collection tool to gather and organize test results at scale.",
+        "Built and presented optical image stabilization diagnostic proof of concept to C-level executives."
       ]
     }
   ],

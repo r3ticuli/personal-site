@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+{{> header }}
+
+<body id="themeable" class="night-sky-dark">
+  <div id="body-container">
+    <div id="about-me">
+      <img id="head-shot" src="../assets/png/seb.png" />
+      <h1>{{basics.name}}</h1>
+      <span>
+        {{basics.summary}}
+      </span>
+      <div class="h-line"></div>
+      <table id="link-table">
+        {{#each basics.profiles}}
+        <td>
+          <a href="{{this.url}}">
+            {{this.network}}
+          </a>
+        </td>
+        {{/each}}
+
+        <td>
+          <a href="../assets/r.pdf">
+            Résumé
+          </a>
+        </td>
+      </table>
+    </div>
+  </div>
+</body>
+
+<div id="themer-container">
+  <label for="themes">Choose a theme:</label>
+  <select name="themes" id="themer">
+    <option value="night-sky-dark">night-sky-dark</option>
+    <option value="rivet-dark">rivet-dark</option>
+    <option value="solarized-light">solarized-light</option>
+    <option value="green-as-a-whistle-dark">green-as-a-whistle-dark</option>
+  </select>
+</div>
+
+</html>
