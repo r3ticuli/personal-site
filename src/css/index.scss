@@ -83,6 +83,11 @@ td {
   bottom: 0;
   width: 100%;
   text-align: center;
+
+  select,
+  option {
+    font-family: $font;
+  }
 }
 
 @media (max-width: 1000px) {
