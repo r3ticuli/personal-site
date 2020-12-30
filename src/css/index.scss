@@ -3,11 +3,8 @@ $margin: 20px;
 
 $font: "Fira Code", monospace;
 $font-size-heading: 20pt;
-$font-size-heading-mobile: 50pt;
 $font-size: 13pt;
 $line-height: 21pt;
-$font-size-mobile: 30pt;
-$line-height-mobile: 60pt;
 
 html {
   width: 100%;
@@ -91,11 +88,6 @@ td {
 }
 
 @media (max-width: 1000px) {
-  html {
-    font-size: $font-size-mobile;
-    line-height: $line-height-mobile;
-  }
-
   #body-container {
     display: block;
     margin: $margin 40px;
@@ -106,7 +98,7 @@ td {
   }
 
   img {
-    max-width: 80%;
+    max-width: 70%;
     float: none;
     display: block;
   }
@@ -118,7 +110,7 @@ td {
   .h-line {
     width: 100%;
     height: 1px;
-    margin: 50px 0px;
+    margin: 30px 0px;
   }
 
   #link-table {
@@ -128,14 +120,14 @@ td {
   h1 {
     width: 100%;
     text-align: center;
-    margin: auto;
-    font-size: $font-size-heading-mobile;
+    margin: 15px auto;
   }
 
   td {
     margin: 0 auto;
     display: block;
-    width: 25%;
+    width: 100%;
+    padding-bottom: 10px;
   }
 }
 

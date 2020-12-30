@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Sebastian Messier",
-    "label": "Founder, Software Architect",
+    "label": "Founder, Product Architect",
     "picture": "https://r3ticuli.github.io/assets/png/seb.png",
     "email": "sebastian.messier@gmail.com",
     "url": "https://r3ticuli.github.io/",
@@ -39,18 +39,18 @@
       "url": "https://www.getairmed.com",
       "startDate": "2019-07-31",
       "endDate": "2020-12-07",
-      "summary": "I realized the CPAP purchasing experience was a nightmare. I performed customer interviews to verify the problem was real and built the technology to streamline the CPAP purchase experience. Brought on an amazing CEO and raised 1M in seed funding.",
+      "summary": "I realized the CPAP purchasing experience was a nightmare. I performed customer interviews to verify the problem was real and built the technology to streamline the CPAP purchase experience. Brought on an amazing CEO and raised 3M in seed funding.",
       "highlights": [
         "Mocked up, scoped, architected, and shipped our products from scratch.",
         "Brought company from 0 to 18k MRR over the course of a year.",
-        "Raised 3m in seed funding."
+        "Raised 3m in seed funding (Bling Capital, Apollo, Justin Kan)"
       ]
     },
     {
       "name": "AirMed",
       "location": "Los Angeles, CA",
       "description": "Health Care SaaS Startup",
-      "position": "Advisor, Board Member",
+      "position": "Advisor",
       "url": "https://www.getairmed.com",
       "startDate": "2020-12-07",
       "summary": "Transitioned from CTO to advisor role. As a board member I assist the company on technical hiring and R&D. "
@@ -209,7 +209,7 @@
     },
     {
       "name": "3D Printing",
-      "keywords": ["AutoDesk", "3D Printers", "PLA Filament"]
+      "keywords": ["AutoDesk", "Ultimaker Cura", "Creality Ender"]
     },
     {
       "name": "Hardware",
@@ -225,7 +225,15 @@
     },
     {
       "name": "Software",
-      "keywords": ["Compilers", "Functional Programming", "Generative Art", "Kernels", "Security", "No-Code"]
+      "keywords": [
+        "Compilers",
+        "Functional Programming",
+        "Generative Art",
+        "Kernels",
+        "Security",
+        "No-Code",
+        "Low-Code"
+      ]
     }
   ],
   "references": []
