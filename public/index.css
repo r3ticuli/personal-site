@@ -1,0 +1,226 @@
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 13pt;
+  line-height: 21pt;
+}
+
+body {
+  font-family: "Fira Code", monospace;
+  display: inline;
+}
+
+#body-container {
+  display: block;
+  margin: 25vh 40px 0px 40px;
+}
+
+select {
+  background: transparent;
+}
+
+h1 {
+  display: inline-block;
+  margin: 0px;
+  text-align: left;
+  font-weight: bolder;
+  font-size: 20pt;
+  letter-spacing: 2px;
+}
+
+span {
+  display: block;
+  margin: 20px 0;
+  font-weight: lighter;
+}
+
+#about-me {
+  display: block;
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+img {
+  float: right;
+  max-width: 175px;
+}
+
+.h-line {
+  width: 70%;
+  height: 1px;
+}
+
+#link-table {
+  max-width: 700px;
+  width: 70%;
+  margin: 20px 0;
+}
+
+td {
+  text-align: center;
+  width: 25%;
+}
+
+#head-shot {
+  border-radius: 50%;
+  margin: 20px auto;
+  padding: 0px 5px 0px 0px;
+}
+
+#themer-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+#themer-container select,
+#themer-container option {
+  font-family: "Fira Code", monospace;
+}
+
+@media (max-width: 1000px) {
+  #body-container {
+    display: block;
+    margin: 20px 40px;
+  }
+
+  #themer-container {
+    display: none;
+  }
+
+  img {
+    max-width: 70%;
+    float: none;
+    display: block;
+  }
+
+  div #about-me {
+    margin: auto;
+  }
+
+  .h-line {
+    width: 100%;
+    height: 1px;
+    margin: 30px 0px;
+  }
+
+  #link-table {
+    width: 100%;
+  }
+
+  h1 {
+    width: 100%;
+    text-align: center;
+    margin: 15px auto;
+  }
+
+  td {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+}
+html .night-sky-dark {
+  background-color: #13222e;
+  color: #acbecc;
+}
+html .night-sky-dark .h-line {
+  background-color: #acbecc;
+}
+html .night-sky-dark svg {
+  color: #acbecc;
+}
+html .night-sky-dark a {
+  color: #acbecc;
+}
+html .night-sky-dark select {
+  color: #acbecc;
+}
+html .night-sky-dark a:hover {
+  color: #ca3e5a;
+}
+
+html .rivet-dark {
+  background-color: #0a0216;
+  color: #faf9fc;
+}
+html .rivet-dark .h-line {
+  background-color: #faf9fc;
+}
+html .rivet-dark svg {
+  color: #faf9fc;
+}
+html .rivet-dark a {
+  color: #faf9fc;
+}
+html .rivet-dark select {
+  color: #faf9fc;
+}
+html .rivet-dark a:hover {
+  color: #f54456;
+}
+
+html .solarized-light {
+  background-color: #fdf6e3;
+  color: #002b36;
+}
+html .solarized-light .h-line {
+  background-color: #002b36;
+}
+html .solarized-light svg {
+  color: #002b36;
+}
+html .solarized-light a {
+  color: #002b36;
+}
+html .solarized-light select {
+  color: #002b36;
+}
+html .solarized-light a:hover {
+  color: #dc322f;
+}
+
+html .mojave-dark {
+  background-color: #222323;
+  color: #dddddd;
+}
+html .mojave-dark .h-line {
+  background-color: #dddddd;
+}
+html .mojave-dark svg {
+  color: #dddddd;
+}
+html .mojave-dark a {
+  color: #dddddd;
+}
+html .mojave-dark select {
+  color: #dddddd;
+}
+html .mojave-dark a:hover {
+  color: #ff5257;
+}
+
+html .green-as-a-whistle-dark {
+  background-color: #1f1913;
+  color: #fefedd;
+}
+html .green-as-a-whistle-dark .h-line {
+  background-color: #fefedd;
+}
+html .green-as-a-whistle-dark svg {
+  color: #fefedd;
+}
+html .green-as-a-whistle-dark a {
+  color: #fefedd;
+}
+html .green-as-a-whistle-dark select {
+  color: #fefedd;
+}
+html .green-as-a-whistle-dark a:hover {
+  color: #994643;
+}
+
+/* # sourceMappingURL=index.css.map */
+
+/*# sourceMappingURL=index.css.map */
