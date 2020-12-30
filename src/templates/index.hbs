@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{{> header }}
+
+<body id="themeable" class="night-sky-dark">
+  <div id="body-container">
+    <div id="about-me">
+      <picture>
+        <source srcset="./assets/jpg/seb.jp2" type="image/jp2"
+          srcset="assets/jpg/seb2x.jp2 1120w, assets/jpg/seb3x.jp2 1680w" sizes="560px"> <!-- safari -->
+        <source srcset="./assets/jpg/seb.jpg" type="image/jpg"
+          srcset="assets/jpg/seb2x.jpg 1120w, assets/jpg/seb3x.jpg 1680w" sizes="560px"> <!-- multiple -->
+        <img id="head-shot" alt="Sebastian's Headshot" />
+      </picture>
+      <h1>{{basics.name}}</h1>
+      <span>
+        {{basics.summary}}
+      </span>
+      <div class="h-line"></div>
+      <table id="link-table">
+        {{#each basics.profiles}}
+        <td>
+          <a href="{{this.url}}">
+            {{this.network}}
+          </a>
+        </td>
+        {{/each}}
+
+        <td>
+          <a href="../assets/r.pdf">
+            Résumé
+          </a>
+        </td>
+      </table>
+    </div>
+  </div>
+</body>
+
+<div id="themer-container">
+  <label for="themes">Choose a theme:</label>
+  <select name="themes" id="themer" title="Modify the theme of this website">
+    <option value="night-sky-dark">night-sky-dark</option>
+    <option value="rivet-dark">rivet-dark</option>
+    <option value="solarized-light">solarized-light</option>
+    <option value="green-as-a-whistle-dark">green-as-a-whistle-dark</option>
+  </select>
+</div>
+
+</html>

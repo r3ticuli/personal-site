@@ -2,12 +2,17 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Sebastian Messier",
-    "label": "Founder, Software Architect",
+    "label": "Founder, Product Architect",
     "picture": "https://r3ticuli.github.io/assets/png/seb.png",
     "email": "sebastian.messier@gmail.com",
     "url": "https://r3ticuli.github.io/",
-    "summary": "Engineer with broad practical knowledge of software, testing, analytics, performance, and agile development. I care deeply about the end user, collaborating effectively with others, and most importantly, building things people need.",
+    "summary": "Technical founder who cares deeply about the end user, working effectively with others, and building things people need.",
     "profiles": [
+      {
+        "network": "Blog",
+        "username": "Sebastian Messier",
+        "url": "https://sebastian-messier.medium.com/"
+      },
       {
         "network": "LinkedIn",
         "username": "Sebastian Messier",
@@ -28,67 +33,60 @@
   "work": [
     {
       "name": "AirMed",
-      "company": "AirMed",
       "location": "Los Angeles, CA",
       "description": "Health Care SaaS Startup",
       "position": "Co-Founder, CTO",
       "url": "https://www.getairmed.com",
       "startDate": "2019-07-31",
       "endDate": "2020-12-07",
-      "summary": "I realized the CPAP purchasing experience was a nightmare. I performed customer interviews to verify the problem was real and built the technology to streamline the CPAP purchase experience. Brought on an amazing CEO and raised 1M in seed funding.",
+      "summary": "I realized the CPAP purchasing experience was a nightmare. I performed customer interviews to verify the problem was real and built the technology to streamline the CPAP purchase experience. Brought on an amazing CEO and raised 3M in seed funding.",
       "highlights": [
-        "Maintained relationships with physicians, vendors, and customers.",
         "Mocked up, scoped, architected, and shipped our products from scratch.",
         "Brought company from 0 to 18k MRR over the course of a year.",
-        "Raised +1m in seed funding."
+        "Raised 3m in seed funding (Bling Capital, Apollo, Justin Kan)"
       ]
     },
     {
       "name": "AirMed",
-      "company": "AirMed",
       "location": "Los Angeles, CA",
       "description": "Health Care SaaS Startup",
-      "position": "Advisor, Board Member",
+      "position": "Advisor",
       "url": "https://www.getairmed.com",
       "startDate": "2020-12-07",
-      "summary": "Transitioned from CTO to advisor role. As a board member I assist the company on technical hiring, and R&D. "
+      "summary": "Transitioned from CTO to advisor role. As a board member I assist the company on technical hiring and R&D. "
     },
     {
       "name": "Capital One",
-      "company": "Capital One",
       "location": "McLean, Virginia",
       "description": "Retail Banking",
       "position": "Software Engineer",
       "url": "https://www.capitalone.com",
       "startDate": "2019-04-30",
-      "summary": "Delivered features and enhancements on customer facing iPad app used in branches. Grew our knowledge of best practices, and established quality standards through out our code base.",
+      "summary": "Delivered enhancements and features for in-branch iPad app in Swift.",
       "highlights": [
-        "Worked on enhancements and features for in-branch iPad app in Swift.",
-        "Brought customer-centric startup mentality and established high software standards within team.",
-        "Built customer queue API with Typescript, AWS Lambdas, and AWS DynamoDB.",
-        "Lead regular meetings to address and triage issues related to tech debt."
+        "Established standards & best practices within the organization.",
+        "Brought customer-centric startup mentality within team.",
+        "Built customer queueing API in Typescript, Lambdas, and DynamoDB.",
+        "Lead regular meetings to address and triage tech debt within our org."
       ]
     },
     {
       "name": "flexEngage",
-      "company": "flexEngage",
       "location": "Orlando, Florida",
       "description": "SaaS Retail Startup",
       "position": "Software Engineer",
       "url": "https://www.flexEngage.com",
       "startDate": "2019-04-30",
       "endDate": "2019-03-31",
-      "summary": "A YC backed digital receipts startup. JMy first taste of the startup experience.",
+      "summary": "A YC backed digital receipts startup. My first taste of the startup experience.",
       "highlights": [
-        "Joined during period of hyper-growth. On boarded Under Armour, Michael Kors, and Grupo Exito (Amazon of South America)",
+        "Joined during period of hyper-growth. On boarded Under Armor, Michael Kors, and Grupo Exito (Amazon of South America)",
         "Design, implement, test, and shipped micro-services written in Java/Spring, Docker, and deployed on AWS.",
-        "QA duties included running tests and establishing ownership of test suites.",
         "Lead regular meetings to address and triage issues faced by other teams."
       ]
     },
     {
       "name": "Apple",
-      "company": "Apple",
       "position": "Diagnostics Engineer",
       "description": "AppleCare Department",
       "startDate": "2015-01-31",
@@ -97,8 +95,8 @@
       "url": "https://www.apple.com/",
       "highlights": [
         "Wrote diagnostics suites for iPhone hardware in Matlab, Lua, and Objective-C.",
-        "Built diagnostics data collection tool to gather and organize test results at scale.",
-        "Presented optical image stabilization diagnostic proof of concept to executives."
+        "Built data collection tool to gather and organize test results at scale.",
+        "Built and presented optical image stabilization diagnostic proof of concept to C-level executives."
       ]
     }
   ],
@@ -127,24 +125,48 @@
   "publications": [],
   "skills": [
     {
-      "name": "Software Architecture",
+      "name": "Backend Development",
       "level": "",
-      "keywords": ["AWS", "Micro-services", "Serverless", "Monoliths", "Data Architecture", "CMS"]
+      "keywords": [
+        "Java",
+        "Python",
+        "Node",
+        "Typescript",
+        "Docker",
+        "AWS",
+        "Serverless",
+        "Kinesis",
+        "Kafka",
+        "OAuth",
+        "Postgres",
+        "MySQL",
+        "DynamoDB"
+      ]
     },
     {
-      "name": "Backend Developer",
-      "level": "Master",
-      "keywords": ["Docker", "AWS", "DynamoDB", "Postgres", "MySQL", "Node", "OAuth", "Typescript", "Python", "Java"]
+      "name": "Design",
+      "level": "",
+      "keywords": ["Sketch", "Adobe Illustrator", "Figma", "Adobe XD", "Prototyping", "Customer Interviews"]
     },
     {
       "name": "Web Development",
-      "level": "Master",
-      "keywords": ["React", "Sketch", "Illustrator", "Vercel", "Typescript", "WebAssembly", "NextJS", "Vue"]
+      "level": "",
+      "keywords": [
+        "Single Page Apps",
+        "React",
+        "Next.JS",
+        "ES2020",
+        "Typescript",
+        "Redux",
+        "Tailwind CSS",
+        "A/B Testing",
+        "Jest"
+      ]
     },
     {
-      "name": "Mobile Development",
-      "level": "Medium",
-      "keywords": ["Swift", "React Native", "iOS", "SwiftUI"]
+      "name": "iOS Development",
+      "level": "",
+      "keywords": ["Swift", "Objective-C", "Swift UI", "React Native", "Combine"]
     }
   ],
   "languages": [
@@ -157,6 +179,62 @@
       "fluency": "Native Speaker"
     }
   ],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Music",
+      "keywords": [
+        "Analog Recording Techniques",
+        "Microphones",
+        "Effects Pedals",
+        "Drum Machines",
+        "Analog Synthesizers",
+        "Aluminum Guitars"
+      ]
+    },
+    {
+      "name": "Photography",
+      "keywords": ["DIY Film Processing", "Black and White", "Portraits", "Landscapes", "Nature", "Urban Exploration"]
+    },
+    {
+      "name": "Startups",
+      "keywords": [
+        "Paul Graham",
+        "Y-Combinator",
+        "Ramen Profitability",
+        "SaaS",
+        "Product Market Fit",
+        "Blitzscaling",
+        "E-commerce"
+      ]
+    },
+    {
+      "name": "3D Printing",
+      "keywords": ["AutoDesk", "Ultimaker Cura", "Creality Ender"]
+    },
+    {
+      "name": "Hardware",
+      "keywords": [
+        "Raspberry Pi",
+        "Home Automation",
+        "Digital Circuits",
+        "DIY Keyboards",
+        "Quantified Self",
+        "Health Trackers",
+        "ARM Architecture"
+      ]
+    },
+    {
+      "name": "Software",
+      "keywords": [
+        "Compilers",
+        "Functional Programming",
+        "Generative Art",
+        "Kernels",
+        "Security",
+        "No-Code",
+        "Low-Code"
+      ]
+    }
+  ],
   "references": []
 }
