@@ -6,7 +6,7 @@
   },
   "scripts": {
     "local": "nodemon --watch src -e scss,js,hbs,json",
-    "start": "npm run build",
-    "build": "node build.js && sass ./src/css/index.scss ./public/index.css && cp ./src/js/index.js ./public/index.js && cp -r ./src/assets ./public/assets && http-server"
+    "start": "npm run build && http-server",
+    "build": "node build.js && sass ./src/css/index.scss ./public/index.css && cp ./src/js/index.js ./public/index.js && cp -r ./src/assets ./public/assets"
   }
 }
