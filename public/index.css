@@ -136,6 +136,7 @@ html .night-sky-dark a {
 }
 html .night-sky-dark select {
   color: #acbecc;
+  background-color: #13222e;
 }
 html .night-sky-dark a:hover {
   color: #ca3e5a;
@@ -156,6 +157,7 @@ html .rivet-dark a {
 }
 html .rivet-dark select {
   color: #faf9fc;
+  background-color: #0a0216;
 }
 html .rivet-dark a:hover {
   color: #f54456;
@@ -176,6 +178,7 @@ html .solarized-light a {
 }
 html .solarized-light select {
   color: #002b36;
+  background-color: #fdf6e3;
 }
 html .solarized-light a:hover {
   color: #dc322f;
@@ -196,6 +199,7 @@ html .mojave-dark a {
 }
 html .mojave-dark select {
   color: #dddddd;
+  background-color: #222323;
 }
 html .mojave-dark a:hover {
   color: #ff5257;
@@ -216,6 +220,7 @@ html .green-as-a-whistle-dark a {
 }
 html .green-as-a-whistle-dark select {
   color: #fefedd;
+  background-color: #1f1913;
 }
 html .green-as-a-whistle-dark a:hover {
   color: #994643;
