@@ -11,7 +11,7 @@
       {
         "network": "Blog",
         "username": "Sebastian Messier",
-        "url": "https://sebastian-messier.medium.com/"
+        "url": "https://smessier1.medium.com/"
       },
       {
         "network": "LinkedIn",
@@ -22,11 +22,6 @@
         "network": "GitHub",
         "username": "r3ticuli",
         "url": "https://github.com/r3ticuli"
-      },
-      {
-        "network": "Flickr",
-        "username": "Sebastian Messier",
-        "url": "https://www.flickr.com/photos/136351299@N08/"
       }
     ]
   },
