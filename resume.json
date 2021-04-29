@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Sebastian Messier",
-    "label": "Founder, Product Architect",
-    "picture": "https://r3ticuli.github.io/assets/png/seb.png",
+    "label": "Solutions Architect",
+    "picture": "www.sebastianmessier.com/assets/jpg/seb.jpg",
     "email": "sebastian.messier@gmail.com",
-    "url": "https://r3ticuli.github.io/",
-    "summary": "Technical founder who cares deeply about the end user, working effectively with others, and building things people need.",
+    "url": "https://sebastianmessier.com/",
+    "summary": "I establish deep connections with users, work effectively with teams, and build things people need.",
     "profiles": [
       {
         "network": "Blog",
@@ -27,42 +27,35 @@
   },
   "work": [
     {
-      "name": "AirMed",
-      "location": "Los Angeles, CA",
-      "description": "Health Care SaaS Startup",
-      "position": "Co-Founder, CTO",
-      "url": "https://www.getairmed.com",
-      "startDate": "2019-07-31",
-      "endDate": "2020-12-07",
-      "summary": "I realized the CPAP purchasing experience was a nightmare. I performed customer interviews to verify the problem was real and built the technology to streamline the CPAP purchase experience. Brought on an amazing CEO and raised 3M in seed funding.",
-      "highlights": [
-        "Mocked up, scoped, architected, and shipped our products from scratch.",
-        "Brought company from 0 to 18k MRR over the course of a year.",
-        "Raised 3m in seed funding (Bling Capital, Apollo, Justin Kan)"
-      ]
-    },
-    {
-      "name": "AirMed",
-      "location": "Los Angeles, CA",
-      "description": "Health Care SaaS Startup",
-      "position": "Advisor",
-      "url": "https://www.getairmed.com",
-      "startDate": "2020-12-07",
-      "summary": "Transitioned from CTO to advisor role. As a board member I assist the company on technical hiring and R&D. "
-    },
-    {
       "name": "Capital One",
       "location": "McLean, Virginia",
       "description": "Retail Banking",
       "position": "Software Engineer",
       "url": "https://www.capitalone.com",
       "startDate": "2019-04-30",
-      "summary": "Delivered enhancements and features for in-branch iPad app in Swift.",
+      "endDate": "",
+      "summary": "I build tech for the in-person customer experience. This entails delivering enhancements and features for our customer servicing iPad app, and building tools to help branch associates do their job.",
       "highlights": [
-        "Established standards & best practices within the organization.",
-        "Brought customer-centric startup mentality within team.",
-        "Built customer queueing API in Typescript, Lambdas, and DynamoDB.",
-        "Lead regular meetings to address and triage tech debt within our org."
+        "Established code standards & best practices within my org.",
+        "Architected & built customer queue and notifications APIs.",
+        "Established customer focus; added feedback collection in our apps.",
+        "Pivoted to contact-less servicing for COVID-19."
+      ]
+    },
+    {
+      "name": "AirMed",
+      "location": "Los Angeles, CA",
+      "description": "Health Care SaaS Startup",
+      "position": "Founder, CTO",
+      "url": "https://www.getairmed.com",
+      "startDate": "2019-07-31",
+      "endDate": "2020-12-07",
+      "summary": "As a sufferer of sleep apnea, I quickly realized the CPAP purchasing experience was a nightmare. I validated the problem via patient interviews and built the technology to streamline the CPAP purchase experience. Brought on an amazing CEO and raised 3M in seed funding.",
+      "highlights": [
+        "Mocked up, architected, and shipped our products from scratch.",
+        "Hired a distributed team of engineers to help build our products.",
+        "Brought company to 18k MRR over the course of a year.",
+        "Raised 3m in seed funding (Bling, Apollo, Justin Kan)."
       ]
     },
     {
@@ -71,27 +64,28 @@
       "description": "SaaS Retail Startup",
       "position": "Software Engineer",
       "url": "https://www.flexEngage.com",
-      "startDate": "2019-04-30",
+      "startDate": "2017-04-30",
       "endDate": "2019-03-31",
-      "summary": "A YC backed digital receipts startup. My first taste of the startup experience.",
+      "summary": "A YC-backed digital receipts startup. Lots of Java, Docker, Spring Boot, AWS, HTML Email Templates, and integrations support.",
       "highlights": [
-        "Joined during period of hyper-growth. On boarded Under Armor, Michael Kors, and Grupo Exito (Amazon of South America)",
-        "Design, implement, test, and shipped micro-services written in Java/Spring, Docker, and deployed on AWS.",
-        "Lead regular meetings to address and triage issues faced by other teams."
+        "Joined during period of hyper-growth.",
+        "Onboarded Under Armor, Michael Kors & Grupo Exito.",
+        "Shipped micro-services written in Java/Spring via Docker on AWS.",
+        "Led meetings to address issues faced by internal non-tech teams."
       ]
     },
     {
       "name": "Apple",
       "position": "Diagnostics Engineer",
       "description": "AppleCare Department",
-      "startDate": "2015-01-31",
+      "startDate": "",
       "endDate": "2015-08-31",
-      "summary": "Interned at Apple, Inc. Worked within the hardware diagnostics department. Goal was to curb return fraud by distinguishing genuine/fabricated hardware failures.",
-      "url": "https://www.apple.com/",
+      "summary": "Intern at Apple's hardware diagnostics department. Helped curb fraud by detecting fabricated phones via hardware diagnostic tests.",
+      "url": "https://www.apple.com",
       "highlights": [
-        "Wrote diagnostics suites for iPhone hardware in Matlab, Lua, and Objective-C.",
+        "Wrote diagnostics suites for iPhone hardware in Matlab/Lua/Obj-C.",
         "Built data collection tool to gather and organize test results at scale.",
-        "Built and presented optical image stabilization diagnostic proof of concept to C-level executives."
+        "Built and presented optical image stabilization diagnostic proof of concept."
       ]
     }
   ],
@@ -99,7 +93,7 @@
   "education": [
     {
       "institution": "University of Pennsylvania",
-      "area": "Computer Science",
+      "area": "Comp. Sci.",
       "studyType": "B.S.E",
       "startDate": "2012-12-31",
       "endDate": "2016-12-31",
@@ -120,10 +114,14 @@
   "publications": [],
   "skills": [
     {
-      "name": "Backend Development",
+      "name": "Web",
+      "level": "",
+      "keywords": ["React", "Next.JS", "TypeScript", "Redux", "Rails", "Tailwind", "UI Testing"]
+    },
+    {
+      "name": "Backend",
       "level": "",
       "keywords": [
-        "Java",
         "Python",
         "Node",
         "Typescript",
@@ -139,29 +137,28 @@
       ]
     },
     {
-      "name": "Design",
-      "level": "",
-      "keywords": ["Sketch", "Adobe Illustrator", "Figma", "Adobe XD", "Prototyping", "Customer Interviews"]
-    },
-    {
-      "name": "Web Development",
-      "level": "",
-      "keywords": [
-        "Single Page Apps",
-        "React",
-        "Next.JS",
-        "ES2020",
-        "Typescript",
-        "Redux",
-        "Tailwind CSS",
-        "A/B Testing",
-        "Jest"
-      ]
-    },
-    {
-      "name": "iOS Development",
+      "name": "iOS",
       "level": "",
       "keywords": ["Swift", "Objective-C", "Swift UI", "React Native", "Combine"]
+    },
+    {
+      "name": "Design",
+      "level": "",
+      "keywords": ["Sketch", "Adobe Illustrator", "Figma", "Adobe XD", "Prototyping", "Design Research"]
+    },
+    {
+      "name": "Business",
+      "level": "",
+      "keywords": [
+        "A/B Testing",
+        "Marketing",
+        "User Research",
+        "Product Management",
+        "SEO",
+        "Recruiting",
+        "Support",
+        "Monitoring"
+      ]
     }
   ],
   "languages": [
@@ -178,9 +175,9 @@
     {
       "name": "Music",
       "keywords": [
-        "Analog Recording Techniques",
+        "Analog Recording",
         "Microphones",
-        "Effects Pedals",
+        "Effects",
         "Drum Machines",
         "Analog Synthesizers",
         "Aluminum Guitars"
@@ -191,20 +188,17 @@
       "keywords": ["DIY Film Processing", "Black and White", "Portraits", "Landscapes", "Nature", "Urban Exploration"]
     },
     {
-      "name": "Startups",
+      "name": "Business",
       "keywords": [
-        "Paul Graham",
         "Y-Combinator",
         "Ramen Profitability",
         "SaaS",
         "Product Market Fit",
-        "Blitzscaling",
-        "E-commerce"
+        "E-commerce",
+        "Product Management",
+        "Marketing",
+        "SEO"
       ]
-    },
-    {
-      "name": "3D Printing",
-      "keywords": ["AutoDesk", "Ultimaker Cura", "Creality Ender"]
     },
     {
       "name": "Hardware",
@@ -215,7 +209,8 @@
         "DIY Keyboards",
         "Quantified Self",
         "Health Trackers",
-        "ARM Architecture"
+        "ARM Architecture",
+        "3D Printing"
       ]
     },
     {
